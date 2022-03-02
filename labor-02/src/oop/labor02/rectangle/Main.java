@@ -5,19 +5,24 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
+        int sum=0;
 
         Rectangle[] rectangles = new Rectangle[10];
 
 
         Random rand = new Random();
         //Generate positive random numbers less than a bound
-        double length = 1 + rand.nextInt(10);
-        double width = 1 + rand.nextInt(10);
+
         for(int i =0; i<10; i++) {
+            double length = 1 + rand.nextInt(10);
+            double width = 1 + rand.nextInt(10);
             rectangles[ i ] = new Rectangle(length, width);
+            System.out.println(rectangles[i].getLength() + " " + rectangles[i].getWidth() + " "
+                    + rectangles[i].area() + " " + rectangles[i].perimeter() +"\n");
+           sum += rectangles[i].area();
 
         }
-        System.out.println(rectangles.length);
+        System.out.println("Total area of the generated rectangles: \n" + sum);
 
 }
 }

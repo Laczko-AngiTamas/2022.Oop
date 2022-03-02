@@ -7,8 +7,8 @@ public class Rectangle {
 
     // Constructor
     public Rectangle(double width, double length) {
-        this.length = 0;
-        this.width = 0;
+        this.length = length;
+        this.width = width;
     }
 
 
@@ -22,10 +22,10 @@ public class Rectangle {
     }
 
     public double area() {
-        return area();
+        return this.width*this.length;
     }
 
     public double perimeter() {
-        return perimeter();
+        return (2*this.length + 2*this.width);
     }
 }
