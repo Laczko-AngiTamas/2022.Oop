@@ -14,6 +14,7 @@ public class BankAccount {
     public String getAccountNumber() {
         return this.accountNumber;
     }
+
     public double getBalance() {
         return this.balance;
     }
@@ -24,10 +25,11 @@ public class BankAccount {
         }
 
     }
-    boolean withdraw (double amount) {
+
+    boolean withdraw(double amount) {
         if (this.balance >= amount) {
             this.balance -= amount;
-       return true;
+            return true;
         }
         return false;
     }
