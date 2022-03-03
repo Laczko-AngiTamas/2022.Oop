@@ -25,7 +25,7 @@ public class Main {
 
         }
         System.out.println("Total area of the generated rectangles: \n" + sum);
-        System.out.println("Total perimeteres of the generated rectangles: \n" + sum2);
+        System.out.println("Total perimeter of the generated rectangles: \n" + sum2);
 
 }
 }
