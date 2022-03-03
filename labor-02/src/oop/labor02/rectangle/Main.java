@@ -6,6 +6,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         int sum=0;
+        int sum2=0;
 
         Rectangle[] rectangles = new Rectangle[10];
 
@@ -20,9 +21,11 @@ public class Main {
             System.out.println(rectangles[i].getLength() + " " + rectangles[i].getWidth() + " "
                     + rectangles[i].area() + " " + rectangles[i].perimeter() +"\n");
            sum += rectangles[i].area();
+           sum2 += rectangles[i].perimeter();
 
         }
         System.out.println("Total area of the generated rectangles: \n" + sum);
+        System.out.println("Total perimeteres of the generated rectangles: \n" + sum2);
 
 }
 }
