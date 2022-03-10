@@ -21,6 +21,6 @@ public class Auto {
 
 
     public String ToString() {
-        return szin + "" + sebesseg;
+        return szin + " " + sebesseg;
     }
 }
