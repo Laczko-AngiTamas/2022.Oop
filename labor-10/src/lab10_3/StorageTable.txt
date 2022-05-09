@@ -1,5 +1,5 @@
-Products	                          Updates	Number of products updated	Execution time
-data1000.txt	update1000.txt	112	                                             34 ms
-data1000.txt	update1000000.txt	998	                                            1111 ms
-data1000000.txt 	update1000.txt	554	                                            20 ms
-data1000000.txt 	update1000000.txt	558950	                                            2167 ms
+Products	        Updates	            Number of products updated	     Execution time
+data1000.txt	    update1000.txt	                 112	                   34 ms
+data1000.txt	    update1000000.txt	             998	                   1111 ms
+data1000000.txt 	update1000.txt	                 554	                   20 ms
+data1000000.txt 	update1000000.txt	             558950	                   2167 ms
