@@ -41,10 +41,12 @@ public class Main {
 
        }*/
 
-    Storage raktar = new Storage("data10.txt");
-    long start = (int) System.currentTimeMillis();
+    Storage raktar = new Storage("data1000000.txt ");
+    long startTime = System.currentTimeMillis();
     raktar.update("update1000000.txt");
-    System.currentTimeMillis();
+    long endTime = System.currentTimeMillis();
+        System.out.println("Vegrehajtasi ido: " + (endTime - startTime) + " ms");
+
 
 
     }

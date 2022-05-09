@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Storage {
+public class    Storage {
     private ArrayList<Product> termekek = new ArrayList<>();
 
     public Storage(String fileName) {

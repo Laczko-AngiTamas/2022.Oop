@@ -12,6 +12,7 @@ public class Main {
                 new MyDate(1990, 11, 13), "Client State"));
 
         company.hire(new Employee("Tamas", "Laczko-Angi", 4000, new MyDate(2002, 02, 11)));
+        company.hire(new Employee("Balazs", "Mate", 4000, new MyDate(2003, 03, 15)));
 
        company.sortByComparator(new Comparator<Employee>() {
            @Override
